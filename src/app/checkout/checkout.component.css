@@ -1,0 +1,271 @@
+.single-testimonial {
+  width: 50%;
+  margin: auto;
+  background-color: #e9ecef;
+  padding-left: 150px;
+}
+
+.content {
+  margin-top: 55px;
+}
+
+.panel-default {
+  border-color: #ddd;
+}
+
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.panel-group .panel+.panel {
+  margin-top: 5px;
+}
+
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+
+.panel-body {
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 15px;
+}
+
+.panel-title a {
+  display: block;
+}
+
+.panel-title i {
+  color: #d19e66;
+}
+
+.panel-title span {
+  color: #444;
+}
+
+.panel-title span {
+  position: relative;
+}
+
+.panel-title span::before {
+  color: #dedede;
+  content: "|";
+  padding: 0 10px;
+}
+
+.single-category span .shop-now:focus {
+  color: #fff;
+}
+
+.banner-brief .shop-now:focus {
+  color: #fff;
+}
+
+.product-banner.banner-3 .shop-now:focus {
+  color: #fff;
+}
+
+.custom-submit:focus {
+  color: #fff;
+}
+
+.custom-form {
+  border: 1px solid #ccc;
+  color: #999;
+  display: block;
+  font-size: 14px;
+  height: 33px;
+  line-height: 16px;
+  margin-bottom: 20px;
+  padding: 0 10px 0 15px;
+  width: 100%;
+}
+
+.custom-form:focus {
+  border-color: #d19e66;
+  outline: none;
+}
+
+textarea.custom-form {
+  height: 78px;
+  padding: 8px 10px 8px 20px;
+}
+
+.custom-form::-webkit-input-placeholder {
+  color: #333;
+}
+
+.custom-form:-moz-placeholder {
+  color: #333;
+}
+
+/* Firefox 18- */
+.custom-form::-moz-placeholder {
+  color: #333;
+}
+
+/* Firefox 19+ */
+.custom-form:-ms-input-placeholder {
+  color: #333;
+}
+
+.checkbox label {
+  color: #999;
+  font-size: 16px;
+  line-height: 16px;
+  margin-right: 20px;
+}
+
+.custom-submit,
+.custom-submit-2 {
+  background: #d19e66 none repeat scroll 0 0;
+  border: none;
+  color: #fff;
+  height: 33px;
+  line-height: 33px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+}
+
+.custom-submit-2.save {
+  padding: 0 25px;
+}
+
+.custom-submit {
+  font-size: 16px;
+  text-align: center;
+}
+
+.custom-form.no-margin {
+  margin-bottom: 0;
+}
+
+.custom-submit-2 {
+  float: left;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.custom-submit:hover,
+.custom-submit-2:hover,
+.active-submit {
+  background: #444 none repeat scroll 0 0;
+  color: #fff;
+}
+
+.radio {
+  position: relative;
+  width: 17px;
+  height: 24px;
+  float: left;
+  font-size: large;
+}
+
+.label {
+  float: left;
+  padding-left: 10px;
+}
+
+.para {
+  color: #999;
+  /* float: left; */
+  padding-left: 30px;
+  text-align: left;
+}
+
+.custom-form::placeholder {
+  color: #999;
+}
+
+.space {
+  margin-top: 3px;
+}
+
+.cart-subtotal p {
+  position: relative;
+  font-size: 22px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  color: #2e2e2e;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cart-subtotal ul li {
+  border: none;
+}
+
+.cart-subtotal .para1 {
+  font-size: 14px;
+  color: #999;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+
+.cart-subtotal .para1 span {
+  color: blue;
+}
+
+.cancel{
+  float: left;
+  width: 185px;
+  height: 49px;
+  font-size: medium;
+  margin-top: 20px;
+}
+.place{
+  float: right;
+  width: 340px;
+  height: 48px;
+  font-size: larger;
+}
+
+/* a {
+  position: relative;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background: #111;
+} */
+
+/* .container#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+#popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 50px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+#popup.active {
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+} */

@@ -1,0 +1,505 @@
+<!doctype html>
+<html>
+
+
+<!-- Mirrored from themeim.com/demo/comercio/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 08:56:32 GMT -->
+
+<head>
+
+
+
+</head>
+
+<body id="home-version-1" class="home-version-1" data-style="default">
+
+	<div class="site-content">
+
+
+		<!--=========================-->
+		<!--=        Header         =-->
+		<!--=========================-->
+
+		<div>
+            <app-nav></app-nav>
+        </div>
+
+		<!--=========================-->
+		<!--=        Breadcrumb         =-->
+		<!--=========================-->
+
+		<section class="breadcrumb-area">
+			<div class="container-fluid custom-container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="bc-inner">
+							<p><a href="#">Home |</a> Checkout</p>
+						</div>
+					</div>
+					<!-- /.col-xl-12 -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+
+
+		<!--=========================-->
+		<!--=        Login         =-->
+		<!--=========================-->
+
+
+
+		<section class="content">
+			<!-- <div class="subscribe-text" style="text-align: center;margin-bottom: 45px;">
+                <h6><span>Add Your </span>Personal Information</h6>
+            </div> -->
+			<!-- MY-ACCOUNT-AREA START -->
+			<div class="my-account-area margin-70">
+				<div class="container">
+					<div class="row" style="margin: auto;">
+
+						<div class="col-xl-4">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a role="button" href="#shipping-info" aria-expanded="false">
+											<i class="fa fa-shopping-bag"></i>
+											<span>My shipping address</span>
+										</a>
+									</h4>
+								</div>
+								<div id="shipping-info" role="tabpanel" data-bs-parent="#accordion">
+									<div class="panel-body">
+										<!-- CHECKOUT-AREA START -->
+										<div class="checkout-area">
+											<form action="#">
+												<div class="row">
+													<!-- Shipping-Address Start -->
+													<div class="col-lg-12">
+														<div class="shipping-address">
+															<div class="row">
+																<div class="col-lg-12">
+																	<select class="custom-select custom-form">
+																		<option>Select Delivery Method</option>
+																		<option>Select Delivery Method</option>
+																		<option>Select Delivery Method</option>
+																	</select>
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-md-6">
+																	<input class="custom-form" type="text"
+																		placeholder="first name" name="firstname" />
+																</div>
+																<div class="col-md-6">
+																	<input class="custom-form" type="text"
+																		placeholder="Last name" name="lastname" />
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-lg-12">
+																	<input type="text" class="custom-form"
+																		placeholder="Address" />
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-lg-6">
+																	<input type="text" class="custom-form"
+																		placeholder="City" />
+																</div>
+																<div class="col-lg-6">
+																	<input type="text" class="custom-form"
+																		placeholder="Country" />
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-md-6">
+																	<input class="custom-form" type="number"
+																		placeholder="Phone Number" />
+																</div>
+																<div class="col-lg-6">
+																	<input type="text" class="custom-form"
+																		placeholder="Pincode" />
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-lg-12">
+																	<input type="text" class="custom-form"
+																		placeholder="Email" name="email" />
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-lg-12">
+																	<textarea class="custom-form"
+																		placeholder="Order Note"
+																		style="height: 80px;"></textarea>
+																</div>
+															</div>
+															<div class="checkbox">
+																<label style="margin-bottom: 18px;">
+																	<input type="checkbox" name="subscribe"
+																		checked="checked" />
+																	Billing Address is same as Shipping.
+																</label>
+															</div>
+															<!-- <div class="row">
+                                                                <div class="col-lg-12">
+                                                                    <input type="submit" class="custom-submit-2 save"
+                                                                        value="Save" />
+                                                                </div>
+                                                            </div> -->
+														</div>
+													</div>
+													<!-- Shipping-Address End -->
+												</div>
+											</form>
+										</div>
+										<!-- CHECKOUT-AREA END -->
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="col-xl-4">
+							<div class="panel-group  margin-btm-0" id="accordion">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a role="button" href="#payment-info" aria-expanded="false">
+												<i class="fa fa-university"></i>
+												<span>Payment Method</span>
+											</a>
+										</h4>
+									</div>
+									<div id="payment-info" role="tabpanel" data-bs-parent="#accordion">
+										<div class="panel-body">
+											<!-- CHECKOUT-AREA START -->
+											<div class="checkout-area">
+												<form action="#">
+													<div class="row">
+														<!-- Enter-Payment Start -->
+														<div class="col-lg-12">
+															<div class="enter-payment">
+																<div class="row space">
+																	<div class="col-md-12">
+
+																		<input id="payment_method_1" class="radio"
+																			type="radio" value="cheque"
+																			checked="checked" name="payment_method">
+																		<label class="label">UPI(GPay/PhonePe)</label>
+
+																	</div>
+
+																</div>
+																<!-- <div class="row">
+																	<div class="col-md-12">
+
+
+																		<p class="para">Pay by any UPI App</p>
+																	</div>																	
+
+																</div> -->
+																<div class="row">
+																	<div class="col-md-12">
+																		<div class="col-md-12">
+																			<input type="text" class="custom-form"
+																				placeholder="Enter UPI ID" />
+																		</div>
+																	</div>
+
+																</div>
+
+																<div class="row space">
+																	<div class="col-md-12">
+
+																		<input id="payment_method_1" class="radio"
+																			type="radio" value="cheque"
+																			name="payment_method">
+																		<label class="label">Credit/Debit Cards</label>
+
+
+																	</div>
+
+																</div>
+
+																<div class="row">
+																	<div class="col-md-6">
+																		<input type="text" class="custom-form"
+																			placeholder="Card Type" />
+																	</div>
+																	<div class="col-md-6">
+																		<input type="text" class="custom-form"
+																			placeholder="Card Number" />
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-md-6">
+																		<div class="row">
+																			<div class="col-lg-12">
+																				<select
+																					class="custom-select custom-form">
+																					<option>Exp Month</option>
+																					<option>January</option>
+																					<option>February</option>
+																					<option>March</option>
+																					<option>April</option>
+																				</select>
+																			</div>
+																			<div class="col-lg-12">
+																				<select
+																					class="custom-select custom-form">
+																					<option>Exp Year</option>
+																					<option>2021</option>
+																					<option>2017</option>
+																					<option>2018</option>
+																					<option>2021</option>
+																				</select>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="col-md-6">
+																		<input type="text" class="custom-form"
+																			placeholder="Card Security Code" />
+																	</div>
+																</div>
+																<div class="row space">
+																	<div class="col-md-12">
+
+																		<input id="payment_method_1" class="radio"
+																			type="radio" value="cheque"
+																			name="payment_method">
+																		<label class="label">Net Banking</label>
+
+
+																	</div>
+
+																</div>
+																<div class="row">
+																	<div class="col-md-12">
+
+
+																		<p class="para">Make your payment directly into
+																			our bank account. Please use your Order ID
+																			as the payment reference.</p>
+																	</div>
+
+																</div>
+																<div class="row space">
+																	<div class="col-md-12">
+
+																		<input id="payment_method_1" class="radio"
+																			type="radio" value="cheque"
+																			name="payment_method">
+																		<label class="label">Cash on Delivery</label>
+
+
+																	</div>
+
+																</div>
+																<div class="row">
+																	<div class="col-md-12">
+
+
+																		<p class="para">Pay with Cash upon Delivery</p>
+																	</div>
+
+																</div>
+																<!-- <div class="row">
+                                                                    <div class="col-lg-12">
+                                                                        <input type="submit"
+                                                                            class="custom-submit-2 save" value="Save" />
+                                                                    </div>
+                                                                </div> -->
+																<!-- <div class="row">
+                                                            <div class="col-md-4">
+                                                                <input type="submit"
+                                                                    class="custom-form custom-submit"
+                                                                    value="pay now" />
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <input type="submit"
+                                                                    class="custom-form custom-submit"
+                                                                    value="cancel order" />
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <a class="custom-form custom-submit"
+                                                                    href="#">continue shopping</a>
+                                                            </div>
+                                                        </div> -->
+															</div>
+														</div>
+
+														<!-- Enter-Payment End -->
+													</div>
+												</form>
+											</div>
+											<!-- CHECKOUT-AREA END -->
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="col-xl-4">
+							<div class="cart-subtotal">
+								<p> Order Summary</p>
+								<ul>
+									<li style="margin-top: 8px;"><span>Cart Subtotal:</span>$1161.00</li>
+									<li style="margin-top: 6px;"><span>Discount </span>$72.00</li>
+									<li style="margin-top: 6px;"><span>Packing Cost :</span>$0.00</li>
+									<li style="margin-top: 6px;border-bottom: 2px solid #c2c2c2;padding-bottom: 15px;">
+										<span>Shipping Cost:</span>$0.00
+									</li>
+									<li style="margin-top: 20px;"><b><span>TOTAL:</span>$1172.00</b></li>
+									<p class="para1">By placing this order,you agree to our <span> Privacy Policy
+										</span> and <span> Terms & Conditions </span></p>
+								</ul>
+								<!-- <div class="note">
+									<span>Order Note :</span>
+									<textarea></textarea>
+								</div> -->
+								<!-- <a href="#">Proceed To Checkout</a> -->
+							</div>
+							<!-- /.cart-subtotal -->
+
+
+						</div>
+					</div>
+					<div class="container">
+						<!-- <div class="row"> -->
+							<div class="row cart-btn-section">
+
+								<div class="col-lg-12">
+									
+									<div class="cart-btn-left">
+
+										<a href="collection" class="cancel">Continue Shopping</a>
+
+										<!-- <input type="submit" class="custom-submit-2 cancel" value="Continue Shopping" /> -->
+										<input type="button" class="custom-submit-2 place" value="Place Order" click="thankyou()" />
+									</div>
+								</div>
+							</div>
+						<!-- </div> -->
+
+					</div>
+				</div>
+			</div>
+			<!-- MY-ACCOUNT-AREA END -->
+
+			<!-- <div id="popup">
+				<h2>
+				  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pulvinar
+				</h2>
+				<p>
+				  mi a sodales efficitur. Curabitur vitae nunc posuere, hendrerit magna
+				  vitae, mollis risus. Nunc accumsan egestas purus, ut egestas ipsum
+				  posuere sed. Suspendisse ut mi rhoncus, scelerisque nisl quis, aliquam
+				  neque.
+				</p>
+				<a href="#" onclick="toggleBlur()">Close</a>
+			  </div> -->
+
+			<!-- BRANDS-LOGO-AREA START -->
+			<div class="brands-logo-area">
+				<div class="container">
+					<div class="row">
+						<div class="active-brands-logo">
+							<!-- Single-Brand-Logo Start -->
+							<div class="brand-item">
+								<div class="single-brand-logo">
+									<img src="img/brand/1.webp" alt="" />
+								</div>
+							</div>
+							<!-- Single-Brand-Logo End -->
+							<!-- Single-Brand-Logo Start -->
+							<div class="brand-item">
+								<div class="single-brand-logo">
+									<img src="img/brand/2.webp" alt="" />
+								</div>
+							</div>
+							<!-- Single-Brand-Logo End -->
+							<!-- Single-Brand-Logo Start -->
+							<div class="brand-item">
+								<div class="single-brand-logo">
+									<img src="img/brand/3.webp" alt="" />
+								</div>
+							</div>
+							<!-- Single-Brand-Logo End -->
+							<!-- Single-Brand-Logo Start -->
+							<div class="brand-item">
+								<div class="single-brand-logo">
+									<img src="img/brand/4.webp" alt="" />
+								</div>
+							</div>
+							<!-- Single-Brand-Logo End -->
+							<!-- Single-Brand-Logo Start -->
+							<div class="brand-item">
+								<div class="single-brand-logo">
+									<img src="img/brand/5.webp" alt="" />
+								</div>
+							</div>
+							<!-- Single-Brand-Logo End -->
+							<!-- Single-Brand-Logo Start -->
+							<div class="brand-item">
+								<div class="single-brand-logo">
+									<img src="img/brand/6.webp" alt="" />
+								</div>
+							</div>
+							<!-- Single-Brand-Logo End -->
+							<!-- Single-Brand-Logo Start -->
+							<div class="brand-item">
+								<div class="single-brand-logo">
+									<img src="img/brand/1.webp" alt="" />
+								</div>
+							</div>
+							<!-- Single-Brand-Logo End -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- BRANDS-LOGO-AREA END -->
+		</section>
+
+
+
+
+
+
+		<!-- <section class="login-now">
+			<div class="container-fluid custom-container">
+				<div class="col-12">
+					<span>Dont have account</span>
+					<a href="create_account" class="btn-two">Create Account</a>
+				</div>
+			</div>
+		</section> -->
+		<!-- /.login-now -->
+
+		
+
+		<!--=========================-->
+		<!--=   Footer area      =-->
+		<!--=========================-->
+
+	     <div>
+			<app-footer></app-footer>
+		 </div>
+
+		<!-- Back to top
+	============================================= -->
+
+		<div class="backtotop">
+			<i class="fa fa-angle-up backtotop_btn"></i>
+		</div>
+		
+
+	</div>
+
+
+</body>
+
+
+<!-- Mirrored from themeim.com/demo/comercio/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 08:56:32 GMT -->
+
+</html>
