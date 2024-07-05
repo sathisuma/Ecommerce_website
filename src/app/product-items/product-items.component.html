@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="bc-inner">
-                            <p><a href="#">Home |</a>Ethinic Wear</p>
+                            <p><a href="#">Home |</a>Categories</p>
                         </div>
                     </div>
                     <!-- /.col-xl-12 -->
@@ -42,19 +42,14 @@
             <!-- /.container -->
         </section>
 
-        <section class="instagram-area">
-			<div class="instagram-slider owl-carousel owl-theme">
-				<div class="sin-instagram" *ngFor="let category of categories" (click)="loadProducts(category.name)">
-                    <img [src]="category.coverImage" alt="{{ category.name }}">
+        <section>
+            <div class="category-area">
+                <div class="category" *ngFor="let category of categories" (click)="loadProducts(category.name)">
+                    <img [src]="category.coverImage" alt="{{ category.name }}" >
                     <p>{{ category.name }}</p>
-					<div class="hover-text">
-						<a>
-							<span>{{ category.name }}</span>
-						</a>
-					</div>
-				</div>								
-			</div>
-		</section>
+                </div>
+            </div>
+        </section>
        
 
         <!--=========================-->

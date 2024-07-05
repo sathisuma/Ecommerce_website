@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
-import { CollectionComponent } from './collection/collection.component';
 import { CartComponent } from './cart/cart.component';
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { CheckoutComponent } from './checkout/checkout.component';
@@ -27,7 +26,6 @@ import { ProductItemsComponent } from './product-items/product-items.component';
     AboutusComponent,
     BlogComponent,
     ContactComponent,
-    CollectionComponent,
     CartComponent,
     WishlistComponent,
     CheckoutComponent,

@@ -4,7 +4,6 @@ import { HomeComponent } from './home/home.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
-import { CollectionComponent } from './collection/collection.component';
 import { CartComponent } from './cart/cart.component';
 import { LoginComponent } from './login/login.component';
 import { MyaccountComponent } from './myaccount/myaccount.component';
@@ -19,7 +18,6 @@ const routes: Routes = [
   { path: 'blog', component: BlogComponent },
   { path: 'blog-details', component: BlogDetailsComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'collection', component: CollectionComponent },
   { path: 'cart', component: CartComponent },
   { path: 'login', component: LoginComponent },
   { path: 'myaccount', component: MyaccountComponent },
