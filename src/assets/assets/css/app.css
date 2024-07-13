@@ -989,7 +989,7 @@ p .cart-title {
 
 .mega-menu .sin-product h5.pro-title a {
   padding: 0;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .mega-menu .sin-product span {
@@ -1916,7 +1916,7 @@ a.btn-two::after {
 
 .sin-product h5.pro-title a {
   color: #525353;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .sin-product h5.pro-title a:hover {
@@ -2413,6 +2413,7 @@ a.btn-two::after {
   background: #fff url("../../media/images/bg/1.jpg") no-repeat center;
   background-size: cover;
   padding: 105px 0;
+  margin-top: 90px;
 }
 
 .sin-feature {
@@ -5678,7 +5679,7 @@ p.sub-title {
   }
 
   .sin-product h5.pro-title a {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .list-pro-det span {
@@ -7971,6 +7972,7 @@ p.sub-title {
   .top-cart>a {
     color: #3f3f3f;
     font-size: 15px;
+    padding: 5px;
   }
 
   .mobile-header {

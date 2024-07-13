@@ -10,13 +10,10 @@ export class CartService {
     { name: 'Ethinic Wear', coverImage: 'assets/media/images/collection/ethinic wear-cover.jpg' },
     { name: 'Sarees', coverImage: 'assets/media/images/collection/sarees-cover.jpg' },
     { name: 'Weatern Wear', coverImage: 'assets/media/images/collection/western-wear-cover.jpg' },
-    // { name: 'Winter Wear', coverImage: ' assets/media/images/collection/winter-wear-cover.jpg' },
-    // { name: 'Sports Wear', coverImage: ' assets/media/images/collection/sports-wear-cover.jpg' },
     { name: 'Footwear', coverImage: ' assets/media/images/collection/footwear-cover.jpg' },
     { name: 'Jewellery', coverImage: ' assets/media/images/collection/jewellery-cover.jpg' },
     { name: 'HandBags & clutches', coverImage: ' assets/media/images/collection/handbags-cover.jpg' },
     { name: 'Watches', coverImage: ' assets/media/images/collection/watches-cover.png' },
-    // { name: 'Hats', coverImage: ' assets/media/images/collection/hat-cover.jpg' },
   ];
 
   private products = [
@@ -151,6 +148,21 @@ export class CartService {
     this.cart = this.cart.filter(item => item.id !== productId);
     localStorage.setItem('cart', JSON.stringify(this.cart));
     this.updateCartCount();
+  }
+
+  addToWishlist(product: any) {
+    const existingProduct = this.cart.find(item => item.id === product.id);
+    if (existingProduct) {
+      existingProduct.quantity++;
+    } else {
+      this.cart.push({ ...product, quantity: 1 });
+    }
+    localStorage.setItem('cart', JSON.stringify(this.cart));
+    alert(`${product.name} has been added to your WishList.`);
+  }
+
+  getWishlist() {
+    return this.cart;
   }
 
 }

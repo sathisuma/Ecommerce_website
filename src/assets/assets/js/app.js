@@ -637,11 +637,12 @@ var THEMEIM = THEMEIM || {};
           //show only one menu at the same time
           $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
         }
+
+        // Navigate to the link's href
+        window.location.href = $this.attr('href');
       }
 
       var accordion = new Accordion($('#mobilemenu'), false);
-
-
 
       $(".accordion-wrapper .mobile-open").on('click', function() {
         $(".accordion").toggleClass("active");
