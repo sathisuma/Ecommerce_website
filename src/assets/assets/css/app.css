@@ -6456,7 +6456,11 @@ p.sub-title {
   }
 
   .feature-area {
-    padding: 80px 0;
+    padding: 35px 0;
+  }
+
+  .sin-feature {
+    height: 120px;
   }
 
   .pb-30 {
@@ -7215,7 +7219,7 @@ p.sub-title {
 
   .sin-banner-con h3 {
     font-size: 35px;
-    line-height: 30px;
+  /*  line-height: 30px; */
   }
 
   .sin-banner-con .banner-top {
@@ -8068,11 +8072,11 @@ p.sub-title {
   }
 
   .sin-banner-con h4 {
-    line-height: 20px;
+    line-height: 10px;
   }
 
   .sin-banner-con h4 {
-    font-size: 14px;
+    font-size: 7px;
   }
 
   .sin-banner-con {
@@ -8091,17 +8095,19 @@ p.sub-title {
   }
 
   .sin-banner-con span {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 6px;
+    line-height: 10px;
   }
 
   .sin-banner-con h3 {
-    font-size: 18px;
+    font-size: 10px;
+    margin-bottom: 0px;
   }
 
   .sin-banner-con p {
-    font-size: 14px;
+    font-size: 8px;
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .sin-banner .sin-banner-con.style-two {

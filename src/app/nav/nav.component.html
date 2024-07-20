@@ -87,13 +87,54 @@
                         <li>
                             <a href="contact">CONTACT</a>
                         </li>
+                        <li class="top-search style-two"><a href="javascript:void(0)"><i
+                            class="flaticon-magnifying-glass"></i></a>
+                    <input type="text" class="search-input" placeholder="Search">
+                </li>
+                <li><a href="wishlist"><i class="flaticon-like"></i></a></li>
+                <li class="top-cart"><a href="javascript:void(0)"><i
+                            class="flaticon-bag"></i><span>{{cartCount}}</span></a>
+
+                    <div class="cart-drop">
+                        <div class="single-cart" *ngFor="let product of cart">
+                            <div class="row">
+                                <div class="col-sm-4 cart-img">
+                                    <img [src]="product.image" alt="{{ product.name }}">
+                                </div>
+                                <div class="col-sm-8">
+                                    <p class="cart-title"><a>{{product.name}}</a></p>
+                                    <p class="cart-price">{{product.quantity}} x ₹{{product.price}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-bottom">
+                            <!-- <div class="cart-sub-total">
+                                    <p>Sub-Total <span>$700</span></p>
+                                </div>
+                                <div class="cart-sub-total">
+                                    <p>Eco Tax (-2.00)<span>$7.00</span></p>
+                                </div>
+                                <div class="cart-sub-total">
+                                    <p>VAT (20%) <span>$40.00</span></p>
+                                </div>
+                                <div class="cart-sub-total">
+                                    <p>Total <span>$244.00</span></p>
+                                </div> -->
+                            <div class="cart-checkout">
+                                <a href="cart"><i class="fa fa-shopping-cart"></i>View Cart</a>
+                            </div>
+                            <div class="cart-share">
+                                <a href="checkout"><i class="fa fa-share"></i>Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
                     </ul>
                 </div>
             </div>
-            <!--Menu container end-->
 
 
-            <div class="col-lg-6 col-xl-2 order-lg-2 order-xl-3">
+            <!-- <div class="col-lg-6 col-xl-2 order-lg-2 order-xl-3">
                 <div class="header-right-menu">
                     <ul>
                         <li class="top-search style-two"><a href="javascript:void(0)"><i
@@ -117,7 +158,7 @@
                                     </div>
                                 </div>
                                 <div class="cart-bottom">
-                                    <!-- <div class="cart-sub-total">
+                                    <div class="cart-sub-total">
                                             <p>Sub-Total <span>$700</span></p>
                                         </div>
                                         <div class="cart-sub-total">
@@ -128,7 +169,7 @@
                                         </div>
                                         <div class="cart-sub-total">
                                             <p>Total <span>$244.00</span></p>
-                                        </div> -->
+                                        </div>
                                     <div class="cart-checkout">
                                         <a href="cart"><i class="fa fa-shopping-cart"></i>View Cart</a>
                                     </div>
@@ -140,12 +181,9 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <!--Col end-->
+            </div> -->
         </div>
-        <!--Row end-->
     </div>
-    <!--container end-->
 </header>
 <!--Header end-->
 
