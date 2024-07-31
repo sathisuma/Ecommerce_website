@@ -1519,7 +1519,7 @@ a.btn-one:hover {
 }
 
 .owl-carousel .owl-item .slider-img img {
-  max-width: 100%;
+  max-width: 50%;
   width: auto;
 }
 
@@ -2413,7 +2413,8 @@ a.btn-two::after {
   background: #fff url("../../media/images/bg/1.jpg") no-repeat center;
   background-size: cover;
   padding: 105px 0;
-  margin-top: 90px;
+  margin-top: 40px;
+  margin-bottom: 90px;
 }
 
 .sin-feature {
@@ -5310,6 +5311,7 @@ p.sub-title {
 .sin-instagram {
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 /* .sin-instagram:after {
@@ -5414,9 +5416,9 @@ p.sub-title {
   overflow: hidden;
 }
 
-.sin-instagram .bd-r img {
+/* .sin-instagram .bd-r img {
   max-width: 50% !important;
-}
+} */
 
 /*--------------------------------------------------------------
   ##  Footer
@@ -5837,7 +5839,7 @@ p.sub-title {
 
   .sin-feature .inner-sin-feature {
     top: 50%;
-    padding-left: 6px;
+    padding-left: 20px;
   }
 
   .padding-top-90 {
@@ -5987,6 +5989,20 @@ p.sub-title {
 
   .search-input {
     top: 47px;
+  }
+
+  .feature-area {
+    padding: 75px 0;
+    margin-top: 15px;
+  }
+
+  .sin-feature {
+    height: 150px;
+    margin: 15px 0;
+  }
+
+  .sin-feature .inner-sin-feature {
+    padding-left: 20px;
   }
 
   /*----------------------------------
@@ -6456,12 +6472,25 @@ p.sub-title {
   }
 
   .feature-area {
-    padding: 35px 0;
+    padding: 60px 0;
   }
 
   .sin-feature {
-    height: 120px;
+    height: 140px;
   }
+
+  .sin-feature .inner-sin-feature {
+    padding-left: 0px;
+  }
+
+  /* .sin-feature .icon {
+    margin-top: 10px;
+  } */
+
+  .sin-feature .f-content p {
+    font-size: 14px;
+  }
+
 
   .pb-30 {
     padding-bottom: 20px;
@@ -6731,11 +6760,23 @@ p.sub-title {
   }
 
   .sin-feature {
-    height: 147px;
+    height: 100px;
   }
 
   .sin-feature .inner-sin-feature {
     top: 57%;
+  }
+
+  .feature-area {
+    margin-top: 30px;
+  }
+
+  .sin-product h5.pro-title a {
+    font-size: 15px;
+  }
+
+  .mid-wrapper.style-two span {
+    font-size: 15px;
   }
 
   .slider-text h1 {
@@ -6800,7 +6841,7 @@ p.sub-title {
   }
 
   .feature-area {
-    padding: 30px 0;
+    padding: 10px 0;
   }
 
   .padding-120 {
@@ -6857,7 +6898,7 @@ p.sub-title {
     margin-bottom: 50px;
   }
 
-   /*----------------------------------
+  /*----------------------------------
   ##  category Page
   -----------------------------------*/
   .category-area .category img {
@@ -7066,6 +7107,11 @@ p.sub-title {
     padding: 40px 0 20px;
   }
 
+  .col-sm-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
   .product-small {
     padding: 40px 0 0;
   }
@@ -7170,8 +7216,22 @@ p.sub-title {
   }
 
   .sin-feature {
-    height: 150px;
+    height: 80px;
     text-align: center;
+  }
+
+  .sin-feature .f-content h6 {
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-top: 4px;
+  }
+
+  .sin-feature .f-content p {
+    font-size: 8px;
+  }
+
+  .sin-feature .icon i {
+    font-size: 30px;
   }
 
   .sin-feature .inner-sin-feature {
@@ -7219,7 +7279,7 @@ p.sub-title {
 
   .sin-banner-con h3 {
     font-size: 35px;
-  /*  line-height: 30px; */
+    /*  line-height: 30px; */
   }
 
   .sin-banner-con .banner-top {
@@ -7264,8 +7324,16 @@ p.sub-title {
   }
 
   .feature-area {
-    padding: 30px 0;
+    padding: 5px 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
   }
+
+  .sin-feature {
+    padding: 15px;
+    margin: 10px 0;
+  }
+
 
   .padding-120 {
     padding: 30px 0 !important;
@@ -7374,7 +7442,7 @@ p.sub-title {
     margin-bottom: 50px;
   }
 
-   /*----------------------------------
+  /*----------------------------------
   ##  category Page
   -----------------------------------*/
   .category-area .category img {
@@ -7655,7 +7723,7 @@ p.sub-title {
   }
 
   .padding-top-120 {
-    padding-top: 30px;
+    padding-top: 50px;
   }
 
   .slider-text h4 {
@@ -7774,7 +7842,7 @@ p.sub-title {
   }
 
   .cart-checkout a {
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 400;
   }
 
@@ -8057,9 +8125,9 @@ p.sub-title {
 
 @media (min-width: 426px) and (max-width: 1024px) {
 
-  .owl-carousel .owl-stage-outer {
+  /* .owl-carousel .owl-stage-outer {
     padding-top: 75px;
-  }
+  } */
 }
 
 @media (max-width: 576px) {
@@ -8076,7 +8144,7 @@ p.sub-title {
   }
 
   .sin-banner-con h4 {
-    font-size: 7px;
+    font-size: 9px;
   }
 
   .sin-banner-con {
@@ -8095,17 +8163,17 @@ p.sub-title {
   }
 
   .sin-banner-con span {
-    font-size: 6px;
+    font-size: 7px;
     line-height: 10px;
   }
 
   .sin-banner-con h3 {
     font-size: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 3px;
   }
 
   .sin-banner-con p {
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
