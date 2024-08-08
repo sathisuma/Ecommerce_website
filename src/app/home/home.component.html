@@ -48,7 +48,7 @@
 								</li>
 								<li><a href="blog">Blog</a>									
 								</li>
-								<li><a href="contact">CONTACT</a></li>
+								<li><a href="contact">Contact</a></li>
 							</ul>
 						</div>
 					</div>
@@ -135,14 +135,14 @@
 					<div class="col-4">
 						<div class="top-cart">
 							<a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ({{cartCount}})</a>
-								<a href="login"><i class="fa fa-user" title="My Account" aria-hidden="true"></i></a>
+								<a href="myaccount"><i class="fa fa-user" title="My Account" aria-hidden="true"></i></a>
 							<div class="cart-drop">
 								<div class="single-cart" *ngFor="let product of cart">
 									<div class="row">
-									<div class="col-sm-4 cart-img">
+									<div class="col-4 cart-img">
 										<img [src]="product.image" alt="{{ product.name }}">
 									</div>
-									<div class="col-sm-8">
+									<div class="col-8">
 										<p class="cart-title"><a>{{product.name}}</a></p>
 										<p class="cart-price">{{product.quantity}} x ₹{{product.price}}</p>
 									</div>                                      
@@ -180,11 +180,8 @@
 					<li><a href="products" class="link">Categories</a></li>
 					<li><a href="aboutus" class="link">About Us</a></li>
 					<li><a href="blog" class="link">Blog</a></li>
-					<li><a href="contact" class="link">Contact</a>
-						<!-- <ul class="submenu">
-								<li><a href="myaccount">Account</a></li>
-							</ul> -->
-					</li>
+					<li><a href="contact" class="link">Contact</a></li>
+					<li><a href="wishlist" class="link">Your Wishlist</a></li>
 				</ul>
 				<div class="mobile-login">
 					<a href="login">Log in</a> |
@@ -484,19 +481,7 @@
 		</section>
 		<!-- /.feature-area -->
 		
-		<!-- main-product -->
-
-		<!--=========================-->
-		<!--=   Discount Countdown area   =-->
-		<!--=========================-->
-
-		<!-- <section class="add-area">
-			<a href="#"><img src="assets/media/images/banner/add.jpg" alt=""></a>
-		</section> -->
-
-
-
-
+		
 		<!--=========================-->
 		<!--=   Instagram area      =-->
 		<!--=========================-->

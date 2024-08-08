@@ -667,11 +667,7 @@ var THEMEIM = THEMEIM || {};
 
 
 
-
-
     }
-
-
   };
 
   THEMEIM.documentOnReady = {

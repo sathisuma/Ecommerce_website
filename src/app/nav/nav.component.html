@@ -15,12 +15,6 @@
                 <div class="col-lg-6">
                     <div class="top-bar-left">
                         <p><i class="far fa-smile"></i><a>Happy Shopping</a></p>
-
-                        <!-- <p><i class="far fa-envelope"></i><a
-                                href="https://themeim.com/cdn-cgi/l/email-protection#b6d5d9dbd3c4d5dfd9f6dfd8d0d998d5d9db"><span
-                                    class="__cf_email__"
-                                    data-cfemail="8cefe3e1e9feefe5e3cce5e2eae3a2efe3e1">[email&#160;protected]</span></a>
-                        </p> -->
                     </div>
                 </div>
                 <!-- Col -->
@@ -37,7 +31,7 @@
                             </ul>
                         </div>
                         <a href="myaccount" class="my-account">My Account</a>
-                        <a href="login" class="my-account login"> Login |</a>
+                        <a href="login" class="my-account px-2"> Login |</a>
                     </div>
                     <!--top-bar-right end-->
                 </div>
@@ -89,7 +83,7 @@
             </div>
 
 
-           <div class="col-xl-2 col-lg-2">
+            <div class="col-xl-2 col-lg-2">
                 <div class="header-right-menu">
                     <ul>
                         <li class="top-search style-two"><a href="javascript:void(0)"><i
@@ -114,17 +108,17 @@
                                 </div>
                                 <div class="cart-bottom">
                                     <div class="cart-sub-total">
-                                            <p>Sub-Total <span>$700</span></p>
-                                        </div>
-                                        <div class="cart-sub-total">
-                                            <p>Eco Tax (-2.00)<span>$7.00</span></p>
-                                        </div>
-                                        <div class="cart-sub-total">
-                                            <p>VAT (20%) <span>$40.00</span></p>
-                                        </div>
-                                        <div class="cart-sub-total">
-                                            <p>Total <span>$244.00</span></p>
-                                        </div>
+                                        <p>Sub-Total <span>$700</span></p>
+                                    </div>
+                                    <div class="cart-sub-total">
+                                        <p>Eco Tax (-2.00)<span>$7.00</span></p>
+                                    </div>
+                                    <div class="cart-sub-total">
+                                        <p>VAT (20%) <span>$40.00</span></p>
+                                    </div>
+                                    <div class="cart-sub-total">
+                                        <p>Total <span>$244.00</span></p>
+                                    </div>
                                     <div class="cart-checkout">
                                         <a href="cart"><i class="fa fa-shopping-cart"></i>View Cart</a>
                                     </div>
@@ -136,18 +130,15 @@
                         </li>
                     </ul>
                 </div>
-            </div> 
+            </div>
         </div>
     </div>
 </header>
 <!--Header end-->
 
-
-
 <!--=========================-->
 <!--=        Mobile Header         =-->
 <!--=========================-->
-
 
 
 <header class="mobile-header">
@@ -172,16 +163,16 @@
                 <div class="top-cart">
                     <a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
                         ({{cartCount}})</a>
-                    <a href="login"><i class="fa fa-user" title="My Account" aria-hidden="true"></i></a>
+                    <a href="myaccount"><i class="fa fa-user" title="My Account" aria-hidden="true"></i></a>
 
 
                     <div class="cart-drop">
                         <div class="single-cart" *ngFor="let product of cart">
                             <div class="row">
-                                <div class="col-sm-4 cart-img">
+                                <div class="col-4 cart-img">
                                     <img [src]="product.image" alt="{{ product.name }}">
                                 </div>
-                                <div class="col-sm-8">
+                                <div class="col-8">
                                     <p class="cart-title"><a>{{product.name}}</a></p>
                                     <p class="cart-price">{{product.quantity}} x ₹{{product.price}}</p>
                                 </div>
